@@ -1,7 +1,7 @@
 var playlist = { artistName: "songTitle" };
 
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist.philOchs = 'Alison';
-  playlist.myBloodyValentine = 'Sometimes';
+  playlist['Phil Ochs'] = 'Alison';
+  playlist['My Bloody Valentine'] = 'Sometimes';
   return playlist;
 }
